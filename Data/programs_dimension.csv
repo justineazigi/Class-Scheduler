@@ -1,0 +1,10 @@
+program_id,program_code,program_name,Program_level,Required_Credit
+p1,ASTC,Graduate Certificate Program in Applied Statistics,Graduate Certificate,12
+p2,BSTC,Graduate Certificate Program in Biostatistics,Graduate Certificate,12
+p3,DSCJ,Data Science Major,Undergraduate,47
+p4,DSCM,Master of Science in Data Science,Masters,32
+p5,DSCN,Data Science Minor,Undergraduate,17
+p6,STAD,Doctor of Philosophy in Statistics,PHD,50
+p7,STAJ,Statistics Major,Undergraduate,47
+p8,STAM,Master of Science in Statistics,Masters,32
+p9,STAN,Statistics Minor,Undergraduate,17

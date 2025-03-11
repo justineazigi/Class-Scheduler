@@ -1,0 +1,12 @@
+course_code,credit_hours,Days,Contact_minutes,instructor_id,instructor_name,meeting_time
+STAT 5610,3,Online,150,F1,J T Terpstra,2
+STAT 3620,3,"Tuesday,Thursday",150,F2,J Naranjo,2
+STAT 6620,3,"Tuesday,Thursday",150,F2,J Naranjo,2
+STAT 5850,3,"Monday,Wednesday",150,F3,K H Lee,2
+STAT 5870,3,"Monday,Wednesday",150,F3,K H Lee,2
+STAT 3640,4,"Tuesday,Thursday",200,F4,H Kang,2
+STAT 6610,3,"Tuesday,Thursday",150,F4,H Kang,2
+STAT 5680,3,"Tuesday,Thursday",150,F5,D Ngo,2
+STAT 6500,4,"Tuesday,Thursday",200,F5,D Ngo,2
+STAT 4640,3,"Monday,Wednesday",150,F6,Y Zhang,2
+STAT 6800,3,"Monday,Wednesday",150,F6,Y Zhang,2

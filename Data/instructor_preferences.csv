@@ -1,0 +1,12 @@
+instructor_id,instructor_name,Course_taught,preferred_days,mode_of_teaching,breaks_between_session,preferred_days2,mode_of_teaching3,breaks_between_session4
+F1,J T Terpstra,"[""STAT 5610"", ""STAT 5670""]",N/A,Asynchronous Online,-1,N/A,Asynchronous Online,no preference
+F2,J Naranjo,"[""STAT 3620"",""STAT 6620"",""STAT 2630"", ""STAT 2160""]","Tusday, Thursday",in-person,0,"Tusday, Thursday",in-person,0
+F3,K H Lee,"[""STAT 5850"", ""STAT 4810"", ""STAT 5870"",  ""STAT 5860""]","Monday, Wednesday",in-person,0,"Monday, Wednesday",in-person,0
+F4,H Kang,"[""STAT 3640"", ""STAT 6500"", ""STAT 3640"",  ""STAT 6970""]","Tusday, Thursday",in-person,60,"Tusday, Thursday",in-person,60
+F5,D Ngo,"[""STAT 5680"", ""STAT 6500"", ""STAT 6640"", ""STAT 6450""]","Tusday, Thursday",in-person,60,"Tusday, Thursday",in-person,60
+F6,Y Zhang,"[""STAT 4640"", ""STAT 6800"", ""STAT 5820"", ""STAT 6600""]","Monday, Wednesday",in-person,60,"Monday, Wednesday",in-person,60
+F7,N R Andrews,"[""STAT 1600"", ""STAT 2160"","" STAT 5660""]",N/A,Asynchronous Online,-1,N/A,Asynchronous Online,no preference
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,

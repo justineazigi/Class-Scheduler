@@ -1,0 +1,61 @@
+course_id,course_code,course_name,credit_hours,contact_minute,Required_courses,Elective_courses
+1,MATH 1220,Calculus I,4,200,"p3,p7",none
+2,MATH 1230,Calculus II,4,200,p7,none
+3,MATH 2300,Elementary Linear Algebra,4,200,"p3,p7",none
+4,STAT 2160,Introductory Statistics,3,150,,p9
+5,STAT 2600,Data Analysis Using R,4,200,"p3,p5,p7",p9
+6,STAT 2630,Introduction to Mathematical Statistics Using R,3,150,"p3,p7",p9
+7,STAT 3620,Probability,3,150,p7,p9
+8,STAT 3640,Foundations of Data Analysis,4,200,p7,p9
+9,STAT 3660,Data Analysis for Biosciences,4,200,p9,none
+10,STAT 4640,Introduction to Statistical Computing,3,150,"p3,p7,p9",p5
+11,STAT 4810,Communicating with Data,3,150,"p3,p7",none
+12,STAT 5450,Introduction to Bayesian Data Analysis,3,150,none,"p1,p2,p3,p6,p7,p8,p9"
+13,STAT 5610,Applied Multivariate Statistical Methods,3,150,none,"p1,p3,p6,p7,p8,p9"
+14,STAT 5630,Sample Survey Methods,3,150,none,"p1,p6,p7,p8,p9"
+15,STAT 5660,Nonparametric Statistical Methods,3,150,none,"p1,p3,p6,p7,p8,p9"
+16,STAT 5670,Statistical Design and Analysis of Experiments,3,150,P7,"P1,P3,P9"
+17,STAT 5680,Regression Analysis,3,150,"p3,p5,p7","p1, p9"
+18,STAT 5820,Time Series Analysis,3,150,none,"p3,p6,p7,p8,p9"
+19,STAT 5850,Applied Data Mining,3,150,none,"p3,p5,p6,p7,p8,p9"
+20,STAT 5860,Computer Based Data Analysis,3,150,p4,"p3,p6,p7,p8,p9"
+21,STAT 5870,Big Data Analysis Using Python,3,150,p4,"p2,p3,p5,p6,p7,p8,p9"
+22,STAT 6030,Fundamentals of Biostatistics,3,150,none,p2
+23,STAT 6040,Fundamentals of Epidemiology and Clinical Trials,3,150,p2,"p4,p6,p8"
+24,STAT 6350,Spatial Statistics,3,150,none,"p2,p6,p8"
+25,STAT 6450,Bayesian Statistical Analysis,3,150,p6,p8
+26,STAT 6460,Large Sample Theory,3,150,p6,p8
+27,STAT 6500,Statistical Theory I,4,200,"p6,p8",p4
+28,STAT 6600,Statistical Theory II,4,200,"p6,p8",p4
+29,STAT 6610,Multivariate Statistical Analysis,3,150,p6,p8
+30,STAT 6620,Applied Linear Models,3,150,"p4,p6,p8","p1,p2"
+31,STAT 6630,Linear Models,3,150,p6,p8
+32,STAT 6640,Applied Mixed Models,3,150,"p6,p8","p1,p2,p4"
+33,STAT 6650,Advanced Statistical Inference,3,150,none,"p6,p8"
+34,STAT 6660,Advanced Nonparametric Statistical Methods,3,150,none,"p6,p8"
+35,STAT 6680,Categorical Data Analysis,3,150,none,"p2,p6,p8"
+36,STAT 6690,Studies in Probability and Statistics,3,150,none,"p6,p8"
+37,STAT 6800,SAS Programming,3,150,"p4,p6,p8","p1,p2"
+38,STAT 6810,Survival Data Analysis,3,150,none,"p2,p6,p8"
+39,STAT 6880,Statistical Research Tools,3,150,none,p6
+40,STAT 6910,Practicum in Statistical Consulting,1,50,none,p6
+41,STAT 6990,Reading and Research,3,150,none,p6
+42,STAT 6970,Data Science Masters Project,4,200,none,p4
+43,STAT 7120,Professional Field Experience,4,200,none,"p6,p8"
+44,STAT 7300,Doctoral Dissertation,4,200,"p3,p5",none
+45,CS 1110,Computer Science I,4,200,p3,none
+46,CS 1120,Computer Science II,4,200,p3,none
+47,CS 4430,Database Management Systems,3,150,p3,none
+48,CS 5110,Big Data,3,150,p3,none
+49,CS 5821,Machine Learning,3,150,"p3,p4",none
+50,CS 5430,Database Systems,3,150,p4,none
+51,CS 5610,Advanced R Programming for Data Science,3,150,p4,none
+52,CS 6030,Studies in Computer Science,3,150,,p4
+53,CS 6260,Advanced Parallel Computations,3,150,,p4
+54,CS 6310,Advanced Design and Analysis of Algorithms,3,150,,p4
+55,CS 6430,Database Management System Implementation,3,150,,p4
+56,CS 6530,Data Mining,3,150,,p4
+57,CS 6820,Advanced Artificial Intelligence,3,150,,p4
+58,CS 6821,Information Retrieval,3,150,,p4
+59,CS 6100,"Advanced Storage, Retrieval and Processing of Big Data",3,150,p4,none
+60,CS 6970,Master's Project,3,150,,p4
