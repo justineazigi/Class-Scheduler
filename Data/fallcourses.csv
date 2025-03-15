@@ -1,5 +1,5 @@
 course_code,credit_hours,Days,Contact_minutes,instructor_id,instructor_name,meeting_time
-STAT 5610,3,Online,150,F1,J T Terpstra,2
+STAT 5610,3,"Monday,Wednesday",150,F1,J T Terpstra,2
 STAT 3620,3,"Tuesday,Thursday",150,F2,J Naranjo,2
 STAT 6620,3,"Tuesday,Thursday",150,F2,J Naranjo,2
 STAT 5850,3,"Monday,Wednesday",150,F3,K H Lee,2

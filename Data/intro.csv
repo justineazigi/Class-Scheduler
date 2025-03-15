@@ -1,5 +1,5 @@
 course_code,section,credit_hours,Days,contact_minutes,TA_ID,meeting_time
-STAT 1600 ,1,3,"Monday, wednesday",150,F7,2
+STAT 1600 ,1,3,"Monday, wednesday",150,TA1,2
 STAT 1600 ,2,3,"Monday, wednesday",150,TA2,2
 STAT 1600 ,3,3,"Monday, wednesday",150,TA3,2
 STAT 1600 ,4,3,"Monday, wednesday",150,TA4,2
@@ -9,23 +9,23 @@ STAT 1600 ,7,3,"Tuesday, Thursday",150,TA7,2
 STAT 1600 ,8,3,"Tuesday, Thursday",150,TA8,2
 STAT 1600 ,9,3,"Tuesday, Thursday",150,TA9,2
 STAT 1600 ,10,3,"Tuesday, Thursday",150,TA10,2
-STAT 2160 ,1,3,"Tuesday, Thursday",150,TA11,2
-STAT 2160,2,3,"monday, wednesday,Friday",150,TA12,3
-STAT 2160,3,3,"monday, wednesday,Friday",150,TA13,3
-STAT 2160,4,3,"monday, wednesday,Friday",150,TA14,3
-STAT 2160,5,3,"monday, wednesday,Friday",150,TA1,3
-STAT 2160,6,3,"monday, wednesday,Friday",150,TA2,3
-STAT 2160,7,3,"monday, wednesday,Friday",150,TA3,3
-STAT 2160,8,3,"monday, wednesday,Friday",150,TA4,3
-STAT 2160,9,3,"monday, wednesday,Friday",150,TA5,3
-STAT 2160,10,3,"monday, wednesday,Friday",150,F7,3
-STAT 2600,1,4,"Tuesday, Thursday",200,TA7,2
-STAT 2600,2,4,"Tuesday, Thursday",200,TA8,2
-STAT 2600,3,4,"Tuesday, Thursday",200,TA9,2
-STAT 2600,4,4,"Tuesday, Thursday",200,TA10,2
-STAT 2600,5,4,"Tuesday, Thursday",200,TA11,2
-STAT 2600,6,4,"Monday, wednesday",200,TA12,2
-STAT 2600,7,4,"Monday, wednesday",200,TA13,2
-STAT 2600,8,4,"Monday, wednesday",200,TA14,2
-STAT 2600,9,4,"Monday, wednesday",200,TA14,2
-STAT 2600,10,4,"Monday, wednesday",200,TA1,2
+STAT 2160 ,1,3,"Tuesday, Thursday",150,TA1,2
+STAT 2160,2,3,"monday, wednesday,Friday",150,TA2,3
+STAT 2160,3,3,"monday, wednesday,Friday",150,TA3,3
+STAT 2160,4,3,"monday, wednesday,Friday",150,TA4,3
+STAT 2160,5,3,"monday, wednesday,Friday",150,TA5,3
+STAT 2160,6,3,"monday, wednesday,Friday",150,TA6,3
+STAT 2160,7,3,"monday, wednesday,Friday",150,TA7,3
+STAT 2160,8,3,"monday, wednesday,Friday",150,TA8,3
+STAT 2160,9,3,"monday, wednesday,Friday",150,TA9,3
+STAT 2160,10,3,"monday, wednesday,Friday",150,TA10,3
+STAT 2600,1,4,"Tuesday, Thursday",200,TA1,2
+STAT 2600,2,4,"Tuesday, Thursday",200,TA2,2
+STAT 2600,3,4,"Tuesday, Thursday",200,TA3,2
+STAT 2600,4,4,"Tuesday, Thursday",200,TA4,2
+STAT 2600,5,4,"Tuesday, Thursday",200,TA5,2
+STAT 2600,6,4,"Monday, wednesday",200,TA6,2
+STAT 2600,7,4,"Monday, wednesday",200,TA7,2
+STAT 2600,8,4,"Monday, wednesday",200,TA8,2
+STAT 2600,9,4,"Monday, wednesday",200,TA9,2
+STAT 2600,10,4,"Monday, wednesday",200,TA10,2
