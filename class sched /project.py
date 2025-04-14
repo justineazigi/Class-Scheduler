@@ -333,6 +333,10 @@ for conflict in conflict_list:
     print(f"Time Slots Allowed: {', '.join([f'{start} - {end}' for start, end in conflict['time_slots_allowed']])}")
     print()
 
+import json
+print(json.dumps(conflict_list, indent=4))
+
+
 
 
 
