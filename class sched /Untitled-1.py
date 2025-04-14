@@ -45,7 +45,6 @@ print(f"Total decision variables created: {len(schedule_vars)}")
 for key, var in schedule_vars.items():
     print(f"{key}: {var}")
 
-
 # Constraints: Ensure an instructor/TA is assigned to only one course per time slot
 
 unique_instructors = set(key[5] for key in schedule_vars.keys())

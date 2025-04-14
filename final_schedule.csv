@@ -1,0 +1,92 @@
+Course,Instructor/TA,Day,Start Time,End Time,Slot
+STAT 1600 section 1,TA1,Monday,18:30,19:45,T34
+STAT 1600 section 1,TA1,Wednesday,18:30,19:45,T34
+STAT 1600 section 2,TA2,Monday,9:30,10:45,T28
+STAT 1600 section 2,TA2,Wednesday,9:30,10:45,T28
+STAT 1600 section 3,TA3,Monday,8:00,9:15,T27
+STAT 1600 section 3,TA3,Wednesday,8:00,9:15,T27
+STAT 1600 section 4,TA4,Monday,11:00,12:15,T29
+STAT 1600 section 4,TA4,Wednesday,11:00,12:15,T29
+STAT 1600 section 5,TA5,Monday,8:00,9:15,T27
+STAT 1600 section 5,TA5,Wednesday,8:00,9:15,T27
+STAT 1600 section 6,TA6,Monday,11:00,12:15,T29
+STAT 1600 section 6,TA6,Wednesday,11:00,12:15,T29
+STAT 1600 section 7,TA7,Tuesday,18:30,19:45,T34
+STAT 1600 section 7,TA7,Thursday,18:30,19:45,T34
+STAT 1600 section 8,TA8,Tuesday,18:30,19:45,T34
+STAT 1600 section 8,TA8,Thursday,18:30,19:45,T34
+STAT 1600 section 9,TA9,Tuesday,18:30,19:45,T34
+STAT 1600 section 9,TA9,Thursday,18:30,19:45,T34
+STAT 1600 section 10,TA10,Tuesday,18:30,19:45,T34
+STAT 1600 section 10,TA10,Thursday,18:30,19:45,T34
+STAT 2160 section 1,TA1,Tuesday,8:00,9:15,T27
+STAT 2160 section 1,TA1,Thursday,8:00,9:15,T27
+STAT 2160 section 2,TA2,Monday,13:00,13:50,T40
+STAT 2160 section 2,TA2,Wednesday,13:00,13:50,T40
+STAT 2160 section 2,TA2,Friday,13:00,13:50,T40
+STAT 2160 section 3,TA3,Monday,12:00,12:50,T39
+STAT 2160 section 3,TA3,Wednesday,12:00,12:50,T39
+STAT 2160 section 3,TA3,Friday,12:00,12:50,T39
+STAT 2160 section 4,TA4,Monday,8:00,8:50,T35
+STAT 2160 section 4,TA4,Wednesday,8:00,8:50,T35
+STAT 2160 section 4,TA4,Friday,8:00,8:50,T35
+STAT 2160 section 5,TA5,Monday,19:00,19:50,T46
+STAT 2160 section 5,TA5,Wednesday,19:00,19:50,T46
+STAT 2160 section 5,TA5,Friday,19:00,19:50,T46
+STAT 2160 section 6,TA6,Monday,10:00,10:50,T37
+STAT 2160 section 6,TA6,Wednesday,10:00,10:50,T37
+STAT 2160 section 6,TA6,Friday,10:00,10:50,T37
+STAT 2160 section 7,TA7,Monday,9:00,9:50,T36
+STAT 2160 section 7,TA7,Wednesday,9:00,9:50,T36
+STAT 2160 section 7,TA7,Friday,9:00,9:50,T36
+STAT 2160 section 8,TA8,Monday,11:00,11:50,T38
+STAT 2160 section 8,TA8,Wednesday,11:00,11:50,T38
+STAT 2160 section 8,TA8,Friday,11:00,11:50,T38
+STAT 2160 section 9,TA9,Monday,16:00,16:50,T43
+STAT 2160 section 9,TA9,Wednesday,16:00,16:50,T43
+STAT 2160 section 9,TA9,Friday,16:00,16:50,T43
+STAT 2160 section 10,TA10,Monday,16:00,16:50,T43
+STAT 2160 section 10,TA10,Wednesday,16:00,16:50,T43
+STAT 2160 section 10,TA10,Friday,16:00,16:50,T43
+STAT 2600 section 1,TA1,Tuesday,14:00,15:40,T50
+STAT 2600 section 1,TA1,Thursday,14:00,15:40,T50
+STAT 2600 section 2,TA2,Tuesday,8:00,9:40,T47
+STAT 2600 section 2,TA2,Thursday,8:00,9:40,T47
+STAT 2600 section 3,TA3,Tuesday,14:00,15:40,T50
+STAT 2600 section 3,TA3,Thursday,14:00,15:40,T50
+STAT 2600 section 4,TA4,Tuesday,14:00,15:40,T50
+STAT 2600 section 4,TA4,Thursday,14:00,15:40,T50
+STAT 2600 section 5,TA5,Tuesday,14:00,15:40,T50
+STAT 2600 section 5,TA5,Thursday,14:00,15:40,T50
+STAT 2600 section 6,TA6,Monday,8:00,9:40,T47
+STAT 2600 section 6,TA6,Wednesday,8:00,9:40,T47
+STAT 2600 section 7,TA7,Monday,10:00,11:40,T48
+STAT 2600 section 7,TA7,Wednesday,10:00,11:40,T48
+STAT 2600 section 8,TA8,Monday,8:00,9:40,T47
+STAT 2600 section 8,TA8,Wednesday,8:00,9:40,T47
+STAT 2600 section 9,TA9,Monday,17:00,18:40,T52
+STAT 2600 section 9,TA9,Wednesday,17:00,18:40,T52
+STAT 2600 section 10,TA10,Monday,17:00,18:40,T52
+STAT 2600 section 10,TA10,Wednesday,17:00,18:40,T52
+STAT 5610,J T Terpstra,Monday,11:00,12:15,T29
+STAT 5610,J T Terpstra,Wednesday,11:00,12:15,T29
+STAT 3620,J Naranjo,Tuesday,12:30,13:45,T30
+STAT 3620,J Naranjo,Thursday,12:30,13:45,T30
+STAT 6620,J Naranjo,Tuesday,11:00,12:15,T29
+STAT 6620,J Naranjo,Thursday,11:00,12:15,T29
+STAT 5850,K H Lee,Monday,15:30,16:45,T32
+STAT 5850,K H Lee,Wednesday,15:30,16:45,T32
+STAT 5870,K H Lee,Monday,12:30,13:45,T30
+STAT 5870,K H Lee,Wednesday,12:30,13:45,T30
+STAT 3640,H Kang,Tuesday,16:00,17:40,T51
+STAT 3640,H Kang,Thursday,16:00,17:40,T51
+STAT 6610,H Kang,Tuesday,14:00,15:15,T31
+STAT 6610,H Kang,Thursday,14:00,15:15,T31
+STAT 5680,D Ngo,Tuesday,11:00,12:15,T29
+STAT 5680,D Ngo,Thursday,11:00,12:15,T29
+STAT 6500,D Ngo,Tuesday,8:00,9:40,T47
+STAT 6500,D Ngo,Thursday,8:00,9:40,T47
+STAT 4640,Y Zhang,Monday,17:00,18:15,T33
+STAT 4640,Y Zhang,Wednesday,17:00,18:15,T33
+STAT 6800,Y Zhang,Monday,15:30,16:45,T32
+STAT 6800,Y Zhang,Wednesday,15:30,16:45,T32

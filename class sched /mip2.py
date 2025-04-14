@@ -45,7 +45,6 @@ print(f"Total decision variables created: {len(schedule_vars)}")
 for key, var in schedule_vars.items():
     print(f"{key}: {var}")
 
-
 # Constraints: Ensure an instructor/TA is assigned to only one course per time slot
 
 unique_instructors = set(key[5] for key in schedule_vars.keys())
@@ -111,11 +110,13 @@ evening_start, evening_end = 16 * 60, 19 * 60 + 50     # 4:00 PM - 7:50 PM
 # Helper function to convert HH:MM string to minutes
 def time_to_minutes(time_str):
     hours, minutes = map(int, time_str.split(":"))
-    return hours * 60 + minutes  
+    return hours * 60 + minutes  # Convert hours to minutes and add minutes
+
 for instructor, prefs in faculty_prefs_dict.items():
     preferred_time = prefs["preferred_time"]
     break_time = prefs["breaks_between_session"]
-   # Map preferred time slots to minutes
+
+    # Map preferred time slots to minutes
     if preferred_time == "morning":
         time_range = (morning_start, morning_end)
     elif preferred_time == "afternoon":
@@ -129,15 +130,17 @@ for instructor, prefs in faculty_prefs_dict.items():
         instructor_schedule = [
             key for key in schedule_vars.keys() if key[5] == instructor and key[4] == day
         ]
+
         # Apply preferred teaching time constraint
         if time_range:
             for key in instructor_schedule:
                 _, _, start, end, _, _ = key
-                start = time_to_minutes(start)  
-                end = time_to_minutes(end)      
+                start = time_to_minutes(start)  # Convert to minutes
+                end = time_to_minutes(end)      # Convert to minutes
                 
                 model.Add(start >= time_range[0])
                 model.Add(end <= time_range[1])
+
         # Apply break preference constraint (for instructors teaching multiple courses in a day)
         for i in range(len(instructor_schedule)):
             for j in range(i + 1, len(instructor_schedule)):
@@ -150,7 +153,8 @@ for instructor, prefs in faculty_prefs_dict.items():
                 end1 = time_to_minutes(end1)
                 start2 = time_to_minutes(start2)
                 end2 = time_to_minutes(end2)
-                if break_time == 0:  
+
+                if break_time == 0:  # No break → back-to-back classes
                     model.Add(start2 == end1)
                 elif break_time == 60:  # 1-hour break → At least 60 min gap
                     model.Add(start2 >= end1 + 60)
@@ -173,31 +177,6 @@ if status in (cp_model.FEASIBLE, cp_model.OPTIMAL):
         if solver.Value(var) == 1:  # If the course is scheduled
             course, ts_id, start_time, end_time, day, instructor = key
             print(f"Course: {course} | Start Time: {start_time} | End Time: {end_time} | Day: {day} | Assigned to: {instructor}")
-else:
-    print("No feasible solution found.")
-
-
-solver = cp_model.CpSolver()
-status = solver.Solve(model)
-
-# Initialize the schedule list
-final_schedule = []
-
-if status in (cp_model.FEASIBLE, cp_model.OPTIMAL):
-    print("Solution Found!\n")
-
-    for key, var in schedule_vars.items():
-        if solver.Value(var) == 1:  
-            course, ts_id, start_time, end_time, day, instructor = key          
-            final_schedule.append((course, start_time, end_time, day, instructor))
-
-    # Print the schedule in the required format
-    print("\nFinal Schedule as a List:\n")
-    print("self.schedule = [")
-    for entry in final_schedule:
-        print(f"    {entry},")
-    print("]")
-
 else:
     print("No feasible solution found.")
 

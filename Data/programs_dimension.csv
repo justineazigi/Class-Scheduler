@@ -1,10 +1,10 @@
-program_id,program_code,program_name,Program_level,Required_Credit
-p1,ASTC,Graduate Certificate Program in Applied Statistics,Graduate Certificate,12
-p2,BSTC,Graduate Certificate Program in Biostatistics,Graduate Certificate,12
-p3,DSCJ,Data Science Major,Undergraduate,47
-p4,DSCM,Master of Science in Data Science,Masters,32
-p5,DSCN,Data Science Minor,Undergraduate,17
-p6,STAD,Doctor of Philosophy in Statistics,PHD,50
-p7,STAJ,Statistics Major,Undergraduate,47
-p8,STAM,Master of Science in Statistics,Masters,32
-p9,STAN,Statistics Minor,Undergraduate,17
+Semester,program_id,program_code,program_name,Required_courses,Elective_courses,External_courses 
+Fall,p1,ASTC,Graduate Certificate Program in Applied Statistics,"[""STAT 6800"", ""STAT 5680""]",,
+Fall,p2,BSTC,Graduate Certificate Program in Biostatistics,,"[STAT 5870, STAT 6620, STAT 6800]",
+Fall,p3,DSCJ,Data Science Major,"[""STAT 2600 section 1"", ""STAT 2600 section 2"", ""STAT 4640"",  ""STAT 2630"", ""STAT 5680""]",,"[MATH 1220 ,MATH 2300, CS 1110, CS 1120, CS 4430, CS 5110, CS 5821]"
+Fall,p4,DSCM,Master of Science in Data Science,"[""STAT 6620"", ""STAT 5870"", ""STAT 6800"",]",STAT 6500,"[CS 5430, CS 6100, CS 6821]"
+Fall,p5,DSCN,Data Science Minor,"[""STAT 2600 section 3"", ""STAT 2600 section 4"", STAT 5680""]","[STAT 4640, STAT 5850, STAT 5870]",[CS 1110]
+Fall,p6,STAD,Doctor of Philosophy in Statistics,"[ ""STAT 6500"", ""STAT 6620"", ""STAT 6800"",""STAT 6460""]","[ STAT 5850,STAT 5870 ]",
+Fall,p7,STAJ,Statistics Major,"[""STAT 2600 section 5"", ""STAT 2600 section 6"", STAT 2630"", ""STAT 3620"", ""STAT 3640"", ""STAT 4640"", ""STAT 5680""]","[STAT 5870, STAT 5850]","[MATH 1220, MATH 1230, MATH 2300]"
+Fall,p8,STAM,Master of Science in Statistics,"[""STAT 6620"", ""STAT 6500"", ""STAT 6800""]","[STAT 5850, STAT 5870, STAT 6460 ]",
+Fall,p9,STAN,Statistics Minor,"[""STAT 2160 section 1"", ""STAT 2160 section 2"", ""STAT 2160 section 3"", ""STAT 2600 section 7"", ""STAT 2600 section 8"", ""STAT 3640"", ""STAT 4640""]","[STAT 2630, STAT 3620, STAT 5680,STAT 5850, STAT 5870 ]",
